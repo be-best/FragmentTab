@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/tab1"
+        style="@style/RadioButtonBottom"
+        android:drawableTop="@drawable/tab1_icon_selector"
+        android:text="微信"/>
+
+
+    <RadioButton
+        android:id="@+id/tab2"
+        style="@style/RadioButtonBottom"
+        android:drawableTop="@drawable/tab2_icon_selector"
+        android:text="联系人"/>
+
+    <RadioButton
+        android:id="@+id/tab3"
+        style="@style/RadioButtonBottom"
+        android:drawableTop="@drawable/tab3_icon_selector"
+        android:text="发现"/>
+
+    <RadioButton
+        android:id="@+id/tab4"
+        style="@style/RadioButtonBottom"
+        android:drawableTop="@drawable/tab4_icon_selector"
+        android:text="我"/>
+
+</RadioGroup>
