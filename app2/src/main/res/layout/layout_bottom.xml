@@ -28,6 +28,7 @@
         android:id="@+id/tab4"
         style="@style/RadioButtonBottom"
         android:drawableTop="@drawable/tab4_icon_selector"
+        android:button="@null"
         android:text="我"/>
 
 </RadioGroup>
