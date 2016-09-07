@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="70dp"
+              android:layout_alignParentBottom="true"
+              android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tab1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/tab_bottom_bg_selector"
+        android:drawableTop="@drawable/tab1_icon_selector"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:text="微信"
+        android:textColor="@drawable/text_bottom_selector"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tab2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/tab_bottom_bg_selector"
+        android:drawableTop="@drawable/tab2_icon_selector"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:text="联系人"
+        android:textColor="@drawable/text_bottom_selector"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tab3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/tab_bottom_bg_selector"
+        android:drawableTop="@drawable/tab3_icon_selector"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:text="发现"
+        android:textColor="@drawable/text_bottom_selector"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tab4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/tab_bottom_bg_selector"
+        android:drawableTop="@drawable/tab4_icon_selector"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:text="我"
+        android:textColor="@drawable/text_bottom_selector"
+        android:textSize="15sp"/>
+
+</LinearLayout>
