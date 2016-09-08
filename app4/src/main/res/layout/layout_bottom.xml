@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="60dp"
+              android:layout_alignParentBottom="true"
+              android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/tab1"
+        android:background="@drawable/tab_bottom_bg_selector"
+        style="@style/layout_tab_style">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:drawableTop="@drawable/tab1_icon_selector"
+            android:text="微信"
+            style="@style/text_tab_style"/>
+
+        <TextView
+            android:id="@+id/tips1"
+            android:layout_toRightOf="@id/tv1"
+            android:text="99+"
+            style="@style/text_tab_tips_style"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tab2"
+        android:background="@drawable/tab_bottom_bg_selector"
+        style="@style/layout_tab_style">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:drawableTop="@drawable/tab2_icon_selector"
+            android:text="联系人"
+            style="@style/text_tab_style"/>
+
+        <TextView
+            android:id="@+id/tips2"
+            android:layout_toRightOf="@id/tv2"
+            android:text="88+"
+            style="@style/text_tab_tips_style"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tab3"
+        android:background="@drawable/tab_bottom_bg_selector"
+        style="@style/layout_tab_style">
+
+        <TextView
+            android:id="@+id/tv3"
+            android:drawableTop="@drawable/tab3_icon_selector"
+            android:text="发现"
+            style="@style/text_tab_style"/>
+
+        <TextView
+            android:id="@+id/tips3"
+            android:layout_toRightOf="@id/tv3"
+            android:text="77+"
+            style="@style/text_tab_tips_style"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/tab4"
+        android:background="@drawable/tab_bottom_bg_selector"
+        style="@style/layout_tab_style">
+
+        <TextView
+            android:id="@+id/tv4"
+            android:drawableTop="@drawable/tab4_icon_selector"
+            android:text="我"
+            style="@style/text_tab_style"/>
+
+        <TextView
+            android:id="@+id/tips4"
+            android:layout_toRightOf="@id/tv4"
+            android:text="66+"
+            style="@style/text_tab_tips_style"/>
+    </RelativeLayout>
+
+</LinearLayout>

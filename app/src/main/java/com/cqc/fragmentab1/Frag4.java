@@ -1,4 +1,4 @@
-package com.cqc.fragmenttab1;
+package com.cqc.fragmentab1;
 
 
 import android.os.Bundle;
@@ -11,12 +11,12 @@ import android.view.ViewGroup;
 /**
  * Created by cqc on 2016/9/7.
  */
-public class Frag3 extends Fragment {
+public class Frag4 extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.frag3, container, false);
+        View view = inflater.inflate(R.layout.frag4, container, false);
         return view;
     }
 }

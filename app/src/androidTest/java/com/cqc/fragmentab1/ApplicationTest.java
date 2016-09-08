@@ -1,4 +1,4 @@
-package com.cqc.fragmenttab1;
+package com.cqc.fragmentab1;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
